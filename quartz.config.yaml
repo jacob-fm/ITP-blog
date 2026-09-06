@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: jacob-itp-blog.netlify.app
+  baseUrl: jacobfm.com/blog
   ignorePatterns:
     - private
     - templates
