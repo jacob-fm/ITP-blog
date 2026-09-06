@@ -1,3 +1,136 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// ---------------------------------------------------------------------------
+// COLOURS — edit here, NOT in quartz.config.yaml
+// ---------------------------------------------------------------------------
+// @quartz-themes/core injects a full palette in `@layer obsidian-theme`, which
+// outranks the `theme.colors` block in quartz.config.yaml. That YAML block is
+// inert while the theme is enabled. custom.scss is emitted outside any layer,
+// and unlayered wins over every layer, so these values are the live ones.
+//
+// Change a colour by editing the nine values in each mode below. The mapping
+// block further down is Quartz's own colour -> Obsidian-variable mapping,
+// re-asserted here so theme-styled surfaces (callouts, tables, sidebar, code)
+// follow this palette instead of the theme's built-in one. You shouldn't need
+// to touch the mapping — only the nine values per mode.
+
+:root {
+  --light: #fffef8; // page background
+  --lightgray: #e5e5e5; // borders, dividers
+  --gray: #b8b8b8; // muted text
+  --darkgray: #4e4e4e; // body text
+  --dark: #a4516c; // headings, high-contrast text
+  --secondary: #284b63; // links, accents
+  --tertiary: #84a59d; // hover states
+  --highlight: rgba(143, 159, 169, 0.15); // internal-link background
+  --textHighlight: #fff23688; // ==marked== text
+
+  // Accent is consumed as separate h/s/l channels; keep in sync with --secondary.
+  --accent-h: 204;
+  --accent-s: 42%;
+  --accent-l: 27%;
+}
+
+:root[saved-theme="dark"] {
+  --light: #161618;
+  --lightgray: #393639;
+  --gray: #646464;
+  --darkgray: #d4d4d4;
+  --dark: #ebebec;
+  --secondary: #7b97aa;
+  --tertiary: #84a59d;
+  --highlight: rgba(143, 159, 169, 0.15);
+  --textHighlight: #b3aa0288;
+
+  --accent-h: 204;
+  --accent-s: 22%;
+  --accent-l: 57%;
+}
+
+// Mapping — declared once; `var()` re-resolves per mode because both palette
+// blocks above set their values on the same element (:root).
+:root {
+  --background-primary: var(--light);
+  --background-primary-alt: var(--light);
+  --background-secondary: var(--light);
+  --background-secondary-alt: var(--lightgray);
+  --background-modifier-border: var(--lightgray);
+  --background-modifier-border-hover: var(--gray);
+  --background-modifier-border-focus: var(--secondary);
+  // The theme colours body <p> with --text-muted, whereas Quartz treats
+  // --text-muted as faint/secondary text. Point it at the body-text colour or
+  // paragraphs render washed out (#b8b8b8) with poor contrast.
+  --text-normal: var(--dark);
+  --text-muted: var(--darkgray);
+  --text-faint: var(--gray);
+  --text-accent: var(--secondary);
+  --link-color: var(--secondary);
+  --link-external-color: var(--secondary);
+  --text-accent-hover: var(--tertiary);
+  --text-on-accent: var(--light);
+  --text-on-accent-inverted: var(--dark);
+  --text-highlight-bg: var(--textHighlight);
+  --interactive-normal: var(--light);
+  --interactive-hover: var(--lightgray);
+  --interactive-accent: var(--secondary);
+  --interactive-accent-hover: var(--tertiary);
+  --color-base-00: var(--light);
+  --color-base-05: var(--light);
+  --color-base-10: var(--light);
+  --color-base-20: var(--lightgray);
+  --color-base-25: var(--lightgray);
+  --color-base-30: var(--lightgray);
+  --color-base-35: var(--lightgray);
+  --color-base-40: var(--gray);
+  --color-base-50: var(--gray);
+  --color-base-60: var(--gray);
+  --color-base-70: var(--darkgray);
+  --color-base-100: var(--dark);
+  --nav-item-color: var(--darkgray);
+  --nav-item-color-hover: var(--dark);
+  --nav-item-color-active: var(--secondary);
+  --nav-item-background-hover: var(--lightgray);
+  --nav-item-background-active: var(--highlight);
+  --tag-background: var(--highlight);
+  --tag-color: var(--secondary);
+  --tag-background-hover: var(--lightgray);
+  --icon-color: var(--darkgray);
+  --icon-color-hover: var(--dark);
+  --icon-color-active: var(--secondary);
+  --divider-color: var(--lightgray);
+  --link-color: var(--secondary);
+  --link-color-hover: var(--tertiary);
+}
+
+// ---------------------------------------------------------------------------
+// TYPOGRAPHY
+// ---------------------------------------------------------------------------
+
+// Antic Didone ships a single weight (400). The theme asks headings for
+// 600-700 via --hN-weight, so browsers synthesize a smeared faux-bold.
+// Ask for the weight that actually exists instead.
+:root {
+  --h1-weight: 400;
+  --h2-weight: 400;
+  --h3-weight: 400;
+  --h4-weight: 400;
+  --h5-weight: 400;
+  --h6-weight: 400;
+}
+
+// Belt-and-braces: if any rule we haven't caught still asks for bold on a
+// header-font element, render the real 400 face rather than faking it.
+// Body copy is Work Sans, which has a genuine 600, so it is left alone.
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+thead,
+.page-title,
+.article-title {
+  font-synthesis-weight: none;
+}

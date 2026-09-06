@@ -16,12 +16,21 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Antic Didone
+      # Antic Didone only ships weight 400. Quartz defaults headers to
+      # [400, 700], and the 700 request 400s against Google Fonts. Pinning a
+      # single weight drops the `wght@` param from the URL entirely.
+      header:
+        name: Antic Didone
+        weights: [400]
       body: Work Sans
       code: IBM Plex Mono
+    # INERT while @quartz-themes/core is enabled — that plugin injects its own
+    # palette in a later cascade layer, so nothing below reaches the page.
+    # The live palette is in quartz/styles/custom.scss. Edit colours there.
+    # These values are kept in sync only so this block isn't misleading.
     colors:
       lightMode:
-        light: "#faf8f8"
+        light: "#fffef8"
         lightgray: "#e5e5e5"
         gray: "#b8b8b8"
         darkgray: "#4e4e4e"
@@ -110,6 +119,25 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
+    options:
+      # This plugin does NOT read configuration.theme.typography — left
+      # unconfigured it falls back to Quartz's Schibsted Grotesk/Source Sans Pro
+      # and overrides the theme via an unlayered h1-h6 rule. Keep the font
+      # names in sync with configuration.theme.typography above.
+      #
+      # Only the *names* matter here; this plugin just sets CSS vars. Weights
+      # belong on theme.typography, which builds the Google Fonts URL — a
+      # `weights:` key here is ignored outright because fontOrigin is "local".
+      header: Antic Didone
+      body: Work Sans
+      code: IBM Plex Mono
+      # @quartz-themes/core styles paragraphs as `font-family: var(--font-interface)`,
+      # not --font-text. Left unset this plugin defaults interface to a generic
+      # system stack, so body copy silently ignored `body:` above.
+      interface: Work Sans
+      # configuration.theme.fontOrigin already emits the Google Fonts <link>;
+      # "local" stops this plugin emitting a second, duplicate one.
+      fontOrigin: local
   - source: "@quartz-themes/core"
     enabled: true
     options:
