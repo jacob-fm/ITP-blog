@@ -138,6 +138,12 @@ plugins:
       display: all
   - source: "@quartz-community/alias-redirects"
     enabled: true
+    options:
+      # Netlify's CDN matches paths case-insensitively, so the case-preserving
+      # stub (A-2nd-note.html) collides with the real page (a-2nd-note.html) and
+      # wins — serving a meta-refresh that points at itself. Only reproduces on
+      # the case-sensitive Linux builder, never locally on macOS.
+      enableCaseRedirects: false
   - source: "@quartz-community/content-index"
     enabled: true
     options:
