@@ -22,9 +22,9 @@
   --gray: #b8b8b8; // muted text
   --darkgray: #4e4e4e; // body text
   --dark: #a4516c; // headings, high-contrast text
-  --secondary: #284b63; // links, accents
+  --secondary: #a65ebd; // links, accents
   --tertiary: #84a59d; // hover states
-  --highlight: rgba(143, 159, 169, 0.15); // internal-link background
+  --highlight: #cecece; // internal link background
   --textHighlight: #fff23688; // ==marked== text
 
   // Accent is consumed as separate h/s/l channels; keep in sync with --secondary.
@@ -34,12 +34,12 @@
 }
 
 :root[saved-theme="dark"] {
-  --light: #161618;
+  --light: #100a0c;
   --lightgray: #393639;
   --gray: #646464;
   --darkgray: #d4d4d4;
-  --dark: #ebebec;
-  --secondary: #7b97aa;
+  --dark: #fffef8;
+  --secondary: #cb738f;
   --tertiary: #84a59d;
   --highlight: rgba(143, 159, 169, 0.15);
   --textHighlight: #b3aa0288;
