@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Jacob's ITP Blog
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: jacobfm.com/blog
+  baseUrl: jacob-itp-blog.netlify.app
   ignorePatterns:
     - private
     - templates
