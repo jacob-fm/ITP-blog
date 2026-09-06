@@ -9,3 +9,10 @@ What about in Python?
 while True:
 	print("looping!")
 ```
+
+javascript:
+```js
+while (true) {
+	console.log("this is also a loop!");
+}
+```
