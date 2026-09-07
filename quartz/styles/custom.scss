@@ -134,3 +134,32 @@ thead,
 .article-title {
   font-synthesis-weight: none;
 }
+
+// ---------------------------------------------------------------------------
+// LAYOUT HELPERS FOR RAW HTML IN NOTES
+// ---------------------------------------------------------------------------
+// Quartz passes raw HTML in markdown through unsanitized, so notes can use
+// these classes directly, e.g.
+//   <div class="img-row"><img src="..."><img src="..."></div>
+img {
+  margin-block: 1rem;
+}
+
+.img-row {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+
+  img {
+    // Equal-width columns regardless of the images' intrinsic sizes.
+    // min-width: 0 stops a wide image from blowing past its flex basis.
+    flex: 1 1 0;
+    min-width: 0;
+    margin: 0;
+  }
+
+  // Stack rather than squish on narrow screens.
+  @media all and ($mobile) {
+    flex-direction: column;
+  }
+}
