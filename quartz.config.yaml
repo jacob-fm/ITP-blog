@@ -179,6 +179,8 @@ plugins:
     options:
       enableSiteMap: true
       enableRSS: true
+  - source: "@quartz-community/assets"
+    enabled: true
   - source: "@quartz-community/favicon"
     enabled: true
   - source: "@quartz-community/og-image"
