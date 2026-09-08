@@ -17,18 +17,12 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      # Antic Didone only ships weight 400. Quartz defaults headers to
-      # [400, 700], and the 700 request 400s against Google Fonts. Pinning a
-      # single weight drops the `wght@` param from the URL entirely.
       header:
         name: Antic Didone
-        weights: [400]
+        weights:
+          - 400
       body: Work Sans
       code: IBM Plex Mono
-    # INERT while @quartz-themes/core is enabled — that plugin injects its own
-    # palette in a later cascade layer, so nothing below reaches the page.
-    # The live palette is in quartz/styles/custom.scss. Edit colours there.
-    # These values are kept in sync only so this block isn't misleading.
     colors:
       lightMode:
         light: "#fffef8"
@@ -122,23 +116,10 @@ plugins:
   - source: "@quartz-community/quartz-fonts"
     enabled: true
     options:
-      # This plugin does NOT read configuration.theme.typography — left
-      # unconfigured it falls back to Quartz's Schibsted Grotesk/Source Sans Pro
-      # and overrides the theme via an unlayered h1-h6 rule. Keep the font
-      # names in sync with configuration.theme.typography above.
-      #
-      # Only the *names* matter here; this plugin just sets CSS vars. Weights
-      # belong on theme.typography, which builds the Google Fonts URL — a
-      # `weights:` key here is ignored outright because fontOrigin is "local".
       header: Antic Didone
       body: Work Sans
       code: IBM Plex Mono
-      # @quartz-themes/core styles paragraphs as `font-family: var(--font-interface)`,
-      # not --font-text. Left unset this plugin defaults interface to a generic
-      # system stack, so body copy silently ignored `body:` above.
       interface: Work Sans
-      # configuration.theme.fontOrigin already emits the Google Fonts <link>;
-      # "local" stops this plugin emitting a second, duplicate one.
       fontOrigin: local
   - source: "@quartz-themes/core"
     enabled: true
@@ -169,10 +150,6 @@ plugins:
   - source: "@quartz-community/alias-redirects"
     enabled: true
     options:
-      # Netlify's CDN matches paths case-insensitively, so the case-preserving
-      # stub (A-2nd-note.html) collides with the real page (a-2nd-note.html) and
-      # wins — serving a meta-refresh that points at itself. Only reproduces on
-      # the case-sensitive Linux builder, never locally on macOS.
       enableCaseRedirects: false
   - source: "@quartz-community/content-index"
     enabled: true
@@ -311,6 +288,18 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
+  - source: github:quartz-community/recent-notes
+    enabled: true
+    options:
+      limit: 3
+      linkToMore: true
+      showTags: true
+      hideTagPages: false
+      hideFolderPages: true
+    order: 50
+    layout:
+      position: afterBody
+      priority: 50
 layout:
   groups:
     toolbar:
