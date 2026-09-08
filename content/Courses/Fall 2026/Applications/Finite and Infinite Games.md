@@ -1,5 +1,6 @@
 ---
 draft: false
+type: reading
 ---
 
 I'm coming into this with a small sliver of prior context. In undergrad, I read a bit C. Thi Nguyen's _Games: Agency as Art_ (ok, literally just the introduction) and listened to a few interviews of his for an independent study. So I have some familiarity with the talk about classifying games.
