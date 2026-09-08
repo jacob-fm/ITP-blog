@@ -52,7 +52,7 @@ In the intro to _Games: Agency as Art_, I recall that Nguyen borrows definitions
 
 ### Reflections on Chapter 1
 
-Really enjoying this so far. I've been going pretty slow and for the most part, I can say I understand the larger flow of the arguments being made, though many details escape me. I'm skeptical about a number of assertions made, some of which seem to be arbitrary or contradictory to earlier statements. But I had a good feeling while reading this, a sense of wonder I might even say.
+Really enjoying this so far. I am surprised to find that the book seems to be more about a way of living than games as they're commonly understood, but I'm here for it. I've been going pretty slow and for the most part, I can say I understand the larger flow of the arguments being made, though many details escape me. I'm skeptical about a number of assertions made, some of which seem to be arbitrary or contradictory to earlier statements. But I felt good while reading this (I might even say I felt a sense of wonder). Excited to see where it goes.
 
 ## Chapter 2: No One Can Play a Game Alone
 
