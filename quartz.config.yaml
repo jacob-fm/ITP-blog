@@ -290,7 +290,7 @@ plugins:
     enabled: true
     options:
       limit: 3
-      linkToMore: true
+      linkToMore: false
       showTags: true
       hideTagPages: false
       hideFolderPages: true
