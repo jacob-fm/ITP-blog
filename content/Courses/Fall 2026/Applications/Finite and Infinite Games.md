@@ -56,5 +56,30 @@ Really enjoying this so far. I am surprised to find that the book seems to be mo
 
 ## Chapter 2: No One Can Play a Game Alone
 
-<!-- TODO: Read Chapter 2 and take notes -->
+- *"No doubt much of the disillusion and bitterness of its warriors comes from the missing final scene-the hero's homecoming to parades or ceremonial burial-an anticipated scene that carries many into battle."*
+	- I am still making sense of the ideas around politics and warfare mentioned so far, but this rings true to me
+- *"In doing so they must at the very least draw the attention of other political participants not to what they feel they must do, but to why they feel they must do it."*
+	- I do think about this often
+- *"Foch has his monument, but not Petain; Lincoln, but not Jefferson Davis; Lenin, but not Trotsky."*
+	- certainly Trotsky is still remembered (by virtue of being worth mentioning here), so maybe we can say that Trotsky is remembered for having won some game/title, but lost a larger game to Lenin
+ 
+ >It is in the interest of a society therefore to encourage competition within itself, to establish the largest possible number of prizes, for the holders of prizes will be those most likely to defend the society as a whole against its competitors.
+- *"Because culture as such can have no temporal limits, a culture understands its past not as destiny, but as history, that is, as a narrative that has begun but points always toward the endlessly open."*
+	- interesting to think about this in contrast to movements to "preserve culture"
 
+>There are variations in the quality of deviation; not all divergence from the past is culturally significant. Any attempt to vary from the past in such a way as to cut the past off, causing it to be forgotten, has little cultural importance. Greater significance attaches to those variations that bring the tradition into view in a new way, allowing the familiar to be seen as unfamiliar, as requiring a new appraisal of all that we have been-and therefore of all that we are.
+
+>Unrepeatability is a characteristic of culture everywhere. Mozart's Jupiter Symphony cannot be composed again, nor could Rembrandt's self-portraits be painted twice.
+- not the same river, not the same man type shit
+- *"Alexander and Napoleon took their poets and their scholars into battle with them, saving themselves the nuisance of repression and along the way drawing ever larger audiences to their triumph."*
+	- reminds me of this quote from Disco Elysium
+	- *"Capital has the ability to subsume all critiques into itself. Even those who would critique capital end up reinforcing it instead."*
+
+>Culture is likely to break out in a society not when its poietai begin to voice a line contrary to that of the society, but when they begin to ignore all lines whatsoever and concern themselves with bringing the audience back into play-not competitive play, but play that affirms itself as play.
+
+- *"Art that is used against a society or its policies gives up its character as infinite play, and aims for an end."*
+	- this is how I feel about a **lot** of contemporary art, where it feels like the artist starts from a political statement and makes something visual as an accompaniment
+
+### Reflections
+
+This chapter hooked me. There are still a lot of things that went over my head (namely the bit about metaphysics at the end), but there were so many lines that made me stop and nod my head vigorously. I marked down a few of them but I could have put down more. I especially like the bits about art's incompatibility with property, and with a politics.
