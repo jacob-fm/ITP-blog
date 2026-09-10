@@ -44,7 +44,7 @@ In the intro to _Games: Agency as Art_, I recall that Nguyen borrows definitions
 - _"If one has sufficient power to win before the game has begun, what follows is not a game at all"_
   - would be curious to read some examples of things that **not** games
 
-> _Evil arises in the honored belief that history can be tidied up, brought to a sensible conclusion. I t is evil to act as though the past is bringing us to a specifiable end. It is evil to assume that the past will make sense only if we bring it to an issue we have clearly in view. It is evil for a nation to believe it is "the last, best hope on earth." It is evil to think history is to end with a return to Zion, or with the classless society, or with the Islamicization of all living infidels._
+> _Evil arises in the honored belief that history can be tidied up, brought to a sensible conclusion. It is evil to act as though the past is bringing us to a specifiable end. It is evil to assume that the past will make sense only if we bring it to an issue we have clearly in view. It is evil for a nation to believe it is "the last, best hope on earth." It is evil to think history is to end with a return to Zion, or with the classless society, or with the Islamicization of all living infidels._
 
 - it must then be evil to have an ideology at all
   - all ideologies have end goals which are believed will "put things right"
