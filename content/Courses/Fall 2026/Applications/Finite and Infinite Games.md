@@ -3,6 +3,8 @@ draft: false
 type: reading
 ---
 
+Finite and Infinite Games by James Carse
+
 I'm coming into this with a small sliver of prior context. In undergrad, I read a bit C. Thi Nguyen's _Games: Agency as Art_ (ok, literally just the introduction) and listened to a few interviews of his for an independent study. So I have some familiarity with the talk about classifying games.
 
 In the intro to _Games: Agency as Art_, I recall that Nguyen borrows definitions from other philosophers and explains that he is only going to be describing a certain type of games in his book, where (among other things) there is a goal that is either met or not met, rather than things like playing "house" as a child, where there is no goal to be met. I'm curious to see how Carse's distinctions relate.
