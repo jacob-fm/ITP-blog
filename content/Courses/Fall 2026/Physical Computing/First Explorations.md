@@ -8,7 +8,9 @@ Read some articles and watched some videos to try and get a grasp on electricity
 
 I think I was able to get a basic grasp of Ohm's law. The idea that voltage is a measure of potential was and still is a bit confusing, but as I've started to actually mess around with different circuits, I think I'm starting to get the picture.
 
-## Hands on
+Before actually messing around making circuits, I did spend a few minutes testing out a multi-meter, making sure I understood the basics of reading voltage.
+
+## Hands on with the breadboard
 
 Went through a bunch of random labs on the pComp website.
 
