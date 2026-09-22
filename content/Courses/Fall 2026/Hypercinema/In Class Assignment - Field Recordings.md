@@ -1,7 +1,8 @@
 ---
 draft: false
-type: assignment
+type: project
 ---
+#audio
 
 We were asked to go around in pairs and record sounds to match a few prompts. Here's what I got with my partner:
 
