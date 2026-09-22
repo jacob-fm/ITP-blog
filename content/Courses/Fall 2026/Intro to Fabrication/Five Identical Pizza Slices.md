@@ -1,7 +1,8 @@
 ---
 draft: false
-type: assignment
+type: project
 ---
+#fabrication #wood
 
 The Assignment: make 5 identical items
 

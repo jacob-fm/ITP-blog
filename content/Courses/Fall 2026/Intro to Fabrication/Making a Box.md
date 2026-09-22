@@ -1,7 +1,8 @@
 ---
 draft: false
-type: assignment
+type: project
 ---
+#fabrication #wood
 
 First assignment for this course, (and my first non-reading assignment at all) is to make a wooden box. The point here is just to get familiar with the woodshop and tools.
 

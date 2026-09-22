@@ -5,7 +5,7 @@ text-title: "Repairing Play: A Black Phenomenology"
 author: Aaron Tramell
 link: https://direct.mit.edu/books/oa-monograph/5530/Repairing-PlayA-Black-Phenomenology
 ---
-
+#playTheory 
 ## Quick Note
 
 I had a lot of negative things to say about this reading. Just want to say that these are notes I took as I read chronologically, so there are some challenges I bring up that are answered at a later point. In select places I made note of this but largely I just logged my thoughts as they arrived. Also it is to be generally assumed that I don't know what I'm talking about.
