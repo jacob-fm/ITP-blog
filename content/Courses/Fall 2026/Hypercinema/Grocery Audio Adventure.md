@@ -6,7 +6,7 @@ type: project
 
 The following was originally written on [Emmanuel's Blog](https://app.notion.com/p/Hypercinema-Grocery-Audio-Adventure-3de94ac518d7803ea25df1fe8384dce6) for the group (Me, Emmanuel, Zerui, and Forward).
 
-My part in the project was everything that happened in Godot, plus some of the audio recording.
+My part in the project was everything that happened in #Godot, plus some of the audio recording.
 
 [Releases · jacob-fm/grocery-audio-adventure](https://github.com/jacob-fm/grocery-audio-adventure/releases)
 
