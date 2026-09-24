@@ -172,3 +172,35 @@ a.tag-link {
   display: inline-block;
   vertical-align: baseline;
 }
+
+// override the Obsidian theme's styling of tags as each having their own line
+.recent-notes .tags {
+  display: block;
+  list-style: none;
+  margin: 0.15rem 0 0 0;
+  padding-left: 0;
+  font-size: 0.85rem;
+
+  >li {
+    display: inline;
+    margin: 0;
+    background: none;
+    border-radius: 0;
+
+    &:not(:last-child)::after {
+      content: ", ";
+      color: var(--gray);
+    }
+  }
+
+  a.internal.tag-link {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+  }
+}
+
+// article title spacing
+h1.article-title {
+  margin-top: 12px;
+}
