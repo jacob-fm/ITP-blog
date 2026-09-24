@@ -164,3 +164,11 @@ img {
     flex-direction: column;
   }
 }
+
+// @quartz-themes/default copies Obsidian's metadata-pill styling onto
+// a.internal-link.tag-link, including `display: flex`. In prose that makes each
+// tag a block-level box spanning the column. Tags belong inline.
+a.tag-link {
+  display: inline-block;
+  vertical-align: baseline;
+}
