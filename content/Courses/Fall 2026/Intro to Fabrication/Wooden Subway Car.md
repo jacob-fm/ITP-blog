@@ -26,7 +26,6 @@ I then had to think about how I wanted the roof of the car to work. I considered
 Some research online lead me to [this kerf-bending pattern generator](https://kerfsmith.com/web-app.html) which made things relatively easy. 
 
 Ian, who works in the shop, was super helpful throughout this process. One thing he showed me was how to get the length of a curved path in Illustrator using the document info window. (I've been using Illustrator for 9 years and had no idea!) Using that information, I blocked out the corresponding amount of space for the kerf-bending pattern, downloaded an SVG with those dimensions from the site I found, and had this:
-
 <img src="./Attachments/SCR-20260924-jske.png" width="100%">
 
 ## Test runs
