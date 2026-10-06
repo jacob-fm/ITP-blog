@@ -120,3 +120,11 @@ good/genuine.
 - Writing time was not enough.
 - Different group structures may require different ways of distributing the challenge,
 especially for trios.
+
+![[WhatsApp Image 2026-09-30 at 19.40.21.jpeg]]
+
+![[WhatsApp Image 2026-09-30 at 19.40.20.jpeg]]
+
+![[WhatsApp Image 2026-09-30 at 19.40.22.jpeg]]
+
+![[WhatsApp Image 2026-09-30 at 19.40.20 (1).jpeg]]
