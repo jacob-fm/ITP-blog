@@ -4,6 +4,9 @@ type: reading
 author: Christoph Cox
 text-title: Audio Culture
 link:
+tags:
+  - music
+  - sound
 ---
 Key points:
 

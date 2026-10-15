@@ -88,3 +88,9 @@ Really enjoying this so far. I am surprised to find that the book seems to be mo
 ### Reflections
 
 This chapter hooked me. There are still a lot of things that went over my head (namely the bit about metaphysics at the end), but there were so many lines that made me stop and nod my head vigorously. I marked down a few of them but I could have put down more. I especially like the bits about art's incompatibility with property, and with a politics.
+
+## Chapter 6
+
+>\[Nature\] is neither chaotic nor ordered. Chaos and order describe the cultural experience of naturethe degree to which nature's indifferent spontaneity seems to agree with our current manner of cultural self-control. A hurricane, or a plague, or the overpopulation of the earth will seem chaotic to those whose cultural expectations are damaged by them and orderly to those whose expectations have been confirmed by them.
+
+>If to operate a machine is to operate like a machine, then we not only operate with each other like machines, we operate each other like machines. And if a machine is most effective when it has no effect, then we operate each other in such a way that we reach the outcome desired-in such a way that nothing happens.

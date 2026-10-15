@@ -6,6 +6,7 @@ text-title: "THE FUTURE OF MUSIC: CREDO"
 link:
 tags:
   - music
+  - sound
 ---
 
 Key points:
