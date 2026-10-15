@@ -2,6 +2,9 @@
 draft: false
 author: Mazen Kerbaj, Leo Chang, Jin Hi Kim
 type: reading
+tags:
+  - music
+  - sound
 ---
 ## Mazen Kerbaj - Starry Night
 

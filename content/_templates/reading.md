@@ -4,4 +4,5 @@ type: reading
 author:
 text-title:
 link:
+tags:
 ---
