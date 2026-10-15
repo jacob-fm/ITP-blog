@@ -123,6 +123,8 @@ At this point I was relatively pleased with what I had, but there was something 
 
 <img src="./Attachments/IMG_6994.jpg" width="100%">
 
+![[FC22FBB2-EF34-4AC2-9761-B87032E69BA2_1_105_c.jpeg]]
+
 No temple is complete without a worshipper.
 
 <img src="./Attachments/IMG_7012.jpg" width="100%">

@@ -76,4 +76,8 @@ I used two press clamps to keep the shape overnight while the glue dried.
 
 <img src="./Attachments/IMG_6950.jpeg" width="100%">
 
+![[IMG_7033.jpg]]
+
+![[IMG_7034.jpg]]
+
 I hope to update this later with windows, a floor, and possibly some way of getting the roof to be more flush with the faces.
