@@ -3,6 +3,7 @@ draft: false
 tags:
   - physicalComputing
   - Arduino
+type: lab
 ---
 
 ## Servo

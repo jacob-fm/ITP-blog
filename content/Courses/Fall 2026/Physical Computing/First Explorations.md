@@ -3,6 +3,7 @@ draft: false
 tags:
   - physicalComputing
   - Arduino
+type: lab
 ---
 
 Read some articles and watched some videos to try and get a grasp on electricity basics this week. I didn't really have a physics class in high school or college so this is all pretty new.
